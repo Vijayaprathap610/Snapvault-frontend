@@ -1,0 +1,96 @@
+.home-wrapper {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    min-height: 100vh;
+}
+
+/* HERO */
+.hero-section {
+    padding: 80px 0;
+}
+
+.brand-name {
+    font-size: 60px;
+    font-weight: 800;
+    animation: slideDown 1s ease;
+}
+
+.tagline {
+    color: #00d4ff;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 16px;
+    color: #ddd;
+    margin-bottom: 30px;
+}
+
+.hero-img {
+    width: 280px;
+    animation: float 3s infinite ease-in-out;
+}
+
+/* BUTTON */
+.primary-btn {
+    background: #00d4ff;
+    border: none;
+    padding: 10px 25px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.primary-btn:hover {
+    background: #0099cc;
+}
+
+/* FEATURES */
+.features-section {
+    padding: 70px 0;
+}
+
+.feature-card {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 20px;
+    transition: 0.4s;
+    backdrop-filter: blur(10px);
+    color: white;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* CTA */
+.cta-section {
+    padding: 60px 0;
+}
+
+/* ANIMATIONS */
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

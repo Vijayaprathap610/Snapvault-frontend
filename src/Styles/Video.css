@@ -1,0 +1,35 @@
+/* Fade animation */
+.fade-in {
+    animation: fadeIn 0.7s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Card hover effect */
+.video-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video-card:hover {
+    transform: scale(1.04);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Video smooth zoom */
+.video-player {
+    transition: transform 0.4s ease;
+}
+
+.video-player:hover {
+    transform: scale(1.05);
+}
