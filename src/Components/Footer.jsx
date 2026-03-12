@@ -56,7 +56,7 @@ function Footer() {
                 <Row>
                     <Col className="text-center pb-3">
                         <p className="copyright">
-                            © 2026 Snapvault | Designed by You VIJAYAPRATHAP
+                            © 2026 Snapvault | Designed by VIJAYAPRATHAP
                         </p>
                     </Col>
                 </Row>
